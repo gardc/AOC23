@@ -2,21 +2,12 @@
 //
 
 #include <iostream>
-#include <chrono>
-#include "Day1/CalibrationDocument.h"
+#include "Day1/day1part1.h"
 
 int main()
 {
-    Day1::CalibrationDocument day1;
-
-    auto start = std::chrono::high_resolution_clock::now();
-
-    day1.processFile("C:\\Users\\gaming\\source\\repos\\AOC23\\AOC23CPP\\Day1\\data.txt");
-    std::cout << "Sum: " << day1.getSum() << std::endl;
-
-    auto end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double, std::milli> execution_time = end - start;
-    std::cout << "Execution Time: " << execution_time.count() << " ms" << std::endl;
+	int sum = Day1::processFile("C:\\Users\\gaming\\source\\repos\\gardc\\AOC23\\input\\day1\\part1\\data.txt");
+	std::cout << "Sum: " << sum << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

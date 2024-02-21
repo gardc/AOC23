@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -24,6 +24,7 @@
     <ProjectGuid>{2a7f6267-d8d6-41f0-9958-ee98b5e8f32f}</ProjectGuid>
     <RootNamespace>AOC23CPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CPP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,11 +130,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AOC23CPP.cpp" />
-    <ClCompile Include="Day1\CalibrationDocument.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Day1\day1part1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Day1\CalibrationDocument.h" />
+    <ClInclude Include="Day1\day1part1.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day1\data.txt" />

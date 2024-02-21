@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace Day1
+namespace Day1Part2
 {
 	class CalibrationDocument
 	{
@@ -12,5 +12,6 @@ namespace Day1
 	private:
 		int sum = 0;
 		int extractNumberFromLine(std::string line);
+		int extractNumberFromText(std::string text);
 	};
 }

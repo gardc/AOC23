@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC23CSharp", "AOC23CSharp\AOC23CSharp.csproj", "{7633201E-5E76-4C58-B085-04A7085D9C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csproj", "{7633201E-5E76-4C58-B085-04A7085D9C2D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AOC23CPP", "AOC23CPP\AOC23CPP.vcxproj", "{2A7F6267-D8D6-41F0-9958-EE98B5E8F32F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP", "CPP\AOC23CPP.vcxproj", "{2A7F6267-D8D6-41F0-9958-EE98B5E8F32F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
