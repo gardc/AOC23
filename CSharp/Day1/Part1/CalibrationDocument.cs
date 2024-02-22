@@ -1,4 +1,4 @@
-﻿namespace AOC23CSharp.Day1
+﻿namespace CSharp.Day1.Part1
 {
     internal class CalibrationDocument
     {

@@ -24,8 +24,8 @@ static int extractTextualNumberFromLine(const char* line)
 
 static int extractNumberFromLine(const char* line)
 {
-	int first	= -1,
-		last	= -1;
+	int first = -1,
+		last = -1;
 
 	for (int i = 0; i < strlen(line); i++)
 	{
