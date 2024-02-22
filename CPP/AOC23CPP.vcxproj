@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Day1\Part1\day1part1.h" />
     <ClInclude Include="Day1\Part2\day1part2.h" />
+    <ClInclude Include="Day2\part1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -8,7 +8,7 @@ import (
 	"unicode"
 )
 
-func extractNumberFromLine(line string) int {
+func _extractNumberFromLine(line string) int {
 	var numericChars []rune
 	// iterate over the characters in the line and add numeric characters to array
 	for _, char := range line {
@@ -37,7 +37,7 @@ func extractNumberFromLine(line string) int {
 	return number
 }
 
-func ProcessFile(filePath string) int {
+func Day1Part1ProcessFile(filePath string) int {
 	// open file for streaming
 	readFile, err := os.Open(filePath)
 

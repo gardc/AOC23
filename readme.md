@@ -8,7 +8,7 @@
 
 ## Results
 - Day1
-	- C++:
+	- C/C++:
 	```
 	Time (mean ± σ):      15.5 ms ±   0.8 ms    [User: 0.9 ms, System: 3.3 ms]
   	Range (min … max):    13.6 ms …  18.6 ms    119 runs

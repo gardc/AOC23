@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	res := day1.ProcessFile("../input/day1/part1/data.txt")
+	res := day1.Day1Part1ProcessFile("../input/day1/part1/data.txt")
 	fmt.Println(res)
 }

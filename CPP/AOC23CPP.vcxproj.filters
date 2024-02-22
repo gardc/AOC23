@@ -17,5 +17,6 @@
       <Filter>Day1</Filter>
     </ClInclude>
     <ClInclude Include="Day1\Part2\day1part2.h" />
+    <ClInclude Include="Day2\part1.h" />
   </ItemGroup>
 </Project>
