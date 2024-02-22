@@ -4,7 +4,7 @@
 #include <fstream>
 #include <vector>
 #include <sstream>
-#include "day1part2.h"
+#include "day1part1.h"
 
 #define MAX_LINE_LENGTH 256
 
@@ -37,17 +37,6 @@ static int extractNumberFromLine(const char* line)
 int Day1::processFile(const char* filePath)
 {
 	int sum = 0;
-	/*std::ifstream fileStream(filePath);
-
-	if (!fileStream.is_open())
-		throw std::invalid_argument("File not found");*/
-
-		/*std::string line;
-		while (std::getline(fileStream, line))
-		{
-			sum += extractNumberFromLine(line);
-		}*/
-
 	FILE* file;
 	char lineBuffer[MAX_LINE_LENGTH];
 	errno_t err;
@@ -61,8 +50,6 @@ int Day1::processFile(const char* filePath)
 		lineBuffer[strcspn(lineBuffer, "\r\n")] = 0;
 
 		int linesum = extractNumberFromLine(lineBuffer);
-		// Process your line in 'lineBuffer' here
-		printf("Read line: %s with number %i\n", lineBuffer, linesum);
 
 		sum += linesum;
 	}

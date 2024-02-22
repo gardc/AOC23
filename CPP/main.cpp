@@ -1,13 +1,17 @@
 // AOC23CPP.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include "Day1/Part1/day1part1.h"
+#include "Day1/Part2/day1part2.h"
 #include <iostream>
-#include "Day1/day1part1.h"
 
 int main()
 {
-	int sum = Day1::processFile("C:\\Users\\gaming\\source\\repos\\gardc\\AOC23\\input\\day1\\part1\\data.txt");
-	std::cout << "Sum: " << sum << std::endl;
+	int day1part1sum = Day1::processFile("C:\\Users\\gaming\\source\\repos\\gardc\\AOC23\\input\\day1\\part1\\data.txt");
+	std::cout << "Day 1 part 1 sum: " << day1part1sum << std::endl;
+
+	int day1part2sum = day1part2processFile("C:\\Users\\gaming\\source\\repos\\gardc\\AOC23\\input\\day1\\part1\\data.txt");
+	printf("Day 1 part 2 sum: %i\n", day1part2sum);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

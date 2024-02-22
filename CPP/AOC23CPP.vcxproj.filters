@@ -6,22 +6,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Day1\day1part1.cpp">
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Day1\Part1\day1part1.cpp">
       <Filter>Day1</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Day1\Part2\day1part2.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Day1\data.txt">
-      <Filter>Day1</Filter>
-    </Text>
-    <Text Include="Day1\test.txt">
-      <Filter>Day1</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Day1\day1part1.h">
+    <ClInclude Include="Day1\Part1\day1part1.h">
       <Filter>Day1</Filter>
     </ClInclude>
+    <ClInclude Include="Day1\Part2\day1part2.h" />
   </ItemGroup>
 </Project>
