@@ -7,7 +7,7 @@
 - C++
 
 ## Results
-- Day1
+- Day1 Part 1
 	- C/C++:
 	```
 	Time (mean ± σ):      15.5 ms ±   0.8 ms    [User: 0.9 ms, System: 3.3 ms]
@@ -20,6 +20,6 @@
 	```
 	- Go:
 	```
-	Time (mean ± σ):      20.3 ms ±   0.7 ms    [User: 0.9 ms, System: 4.8 ms]
-  	Range (min … max):    19.2 ms …  22.6 ms    101 runs
+	Time (mean ± σ):      20.6 ms ±   0.7 ms    [User: 0.5 ms, System: 3.2 ms]
+	Range (min … max):    19.0 ms …  22.4 ms    103 runs
   	```
